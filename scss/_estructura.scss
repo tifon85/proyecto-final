@@ -97,10 +97,10 @@ footer {
     justify-content: center;
     flex-wrap: nowrap;
     h3 {
-        @include tipografia($tipo2, 1.5rem, center);
+        @include tipografia($tipo2, 1rem, center);
     }
     h4 {
-        @include tipografia($tipo2, 1rem, center);
+        @include tipografia($tipo0, 1rem, center);
     }
 }
 
@@ -113,7 +113,7 @@ footer {
 }
 
 .rrss {
-    img{
+    img {
         list-style-type: none;
         display: inline;
         width: 5%;
@@ -193,13 +193,14 @@ footer {
         @include tamanio(100%, 60vh);
     }
     article {
-        @include tamanio(100%, 10vh);
+        @include tamanio(100%, 20vh);
+        justify-content: center;
         h2 {
-            @include tipografia($tipo2, 2.5rem, center);
+            @include tipografia($tipo2, 2rem, center);
             font-weight: bold;
         }
         p {
-            @include tipografia($tipo0, 1.5rem, center);
+            @include tipografia($tipo0, 1.2rem, center);
         }
     }
 }
