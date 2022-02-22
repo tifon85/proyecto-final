@@ -272,18 +272,14 @@ textarea {
     @extend .mainPreguntas;
     flex-wrap: nowrap;
     text-align: center;
-    font-size: 20%;
     border: solid;
     article {
-        width: 30%;
-        height: auto;
-        font-size: 150%;
         h2 {
-            @include tipografia($tipo2, 2.5rem, center);
+            @include tipografia($tipo2, 1.5rem, center);
             font-weight: bold;
         }
         p {
-            @include tipografia($tipo0, 1.5rem, center);
+            @include tipografia($tipo0, 1rem, center);
         }
     }
 }
