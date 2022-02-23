@@ -154,11 +154,11 @@ footer {
         @include tamanio(100%, 55vh);
     }
     h1 {
-        @include tipografia($tipo2, 4rem, center);
+        /*@include tipografia($tipo2, 4rem, center);*/
         font-weight: bold;
     }
     p {
-        @include tipografia($tipo0, 2rem, center);
+        /*@include tipografia($tipo0, 2rem, center);*/
     }
 }
 
@@ -177,11 +177,11 @@ footer {
         }
         article {
             h2 {
-                @include tipografia($tipo2, 2.5rem, center);
+                /*@include tipografia($tipo2, 2.5rem, center);*/
                 font-weight: bold;
             }
             p {
-                @include tipografia($tipo0, 1.5rem, center);
+                /*@include tipografia($tipo0, 1.5rem, center);*/
             }
         }
     }
@@ -196,11 +196,11 @@ footer {
         @include tamanio(100%, 20vh);
         justify-content: center;
         h2 {
-            @include tipografia($tipo2, 2rem, center);
+            /*@include tipografia($tipo2, 2rem, center);*/
             font-weight: bold;
         }
         p {
-            @include tipografia($tipo0, 1.2rem, center);
+            /*@include tipografia($tipo0, 1.2rem, center);*/
         }
     }
 }
@@ -214,17 +214,17 @@ footer {
     align-items: center;
     text-align: center;
     h1 {
-        @include tipografia($tipo2, 4rem, center);
+        /*@include tipografia($tipo2, 4rem, center);*/
         font-weight: bold;
     }
     section {
         margin-top: 1%;
         h2 {
-            @include tipografia($tipo2, 2.5rem, center);
+            /*@include tipografia($tipo2, 2.5rem, center);*/
             font-weight: bold;
         }
         p {
-            @include tipografia($tipo0, 1.5rem, center);
+            /*@include tipografia($tipo0, 1.5rem, center);*/
         }
     }
     img {
@@ -245,13 +245,11 @@ footer {
     align-items: center;
     align-content: center;
     justify-content: space-evenly;
-    div {
-        padding-top: 5%;
-        }
+    margin-top: 2%;
 }
 
 textarea {
-    width: 80vw;
+    width: 90vw;
 }
 
 .enviarDatos {
@@ -276,11 +274,11 @@ textarea {
     border: solid;
     article {
         h2 {
-            @include tipografia($tipo2, 1.5rem, center);
+            /*@include tipografia($tipo2, 1.5rem, center);*/
             font-weight: bold;
         }
         p {
-            @include tipografia($tipo0, 1rem, center);
+            /*@include tipografia($tipo0, 1rem, center);*/
         }
     }
 }
@@ -315,10 +313,10 @@ textarea {
     }
     article {
         p {
-            @include tipografia($tipo1, 2rem, center);
+            /*@include tipografia($tipo1, 2rem, center);*/
         }
         h1 {
-            @include tipografia($tipo0, 4rem, center);
+            /*@include tipografia($tipo0, 4rem, center);*/
             margin-top: 2%;
             font-weight: bold;
         }
@@ -334,14 +332,28 @@ textarea {
         align-items: center;
         @include tamanio(100%, 60vh);
         p {
-            @include tipografia($tipo1, 1.5rem, center);
+            /*@include tipografia($tipo1, 1.5rem, center);*/
             background-color: $back-color-parallax;
             
         }
         h2 {
-            @include tipografia($tipo0, 3rem, center);
+            /*@include tipografia($tipo0, 3rem, center);*/
             font-weight: bold;
             background-color: $back-color-parallax;
         }
     }
+}
+
+/* textos */
+
+p {
+    @include tipografia($tipo0, 1.2rem, center);
+}
+
+h1 {
+    @include tipografia($tipo1, 4rem, center);
+}
+
+h2 {
+    @include tipografia($tipo2, 2.5rem, center);
 }
